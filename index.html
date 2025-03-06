@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقتطفات الدعوة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- عرض الفيديو -->
+        <div class="video-item">
+            <video id="video-player" controls>
+                <source src="videos/video1.mp4" type="video/mp4">
+                متصفحك لا يدعم عرض الفيديو.
+            </video>
+            <div class="video-title" id="video-title">اسم الفيديو 1</div>
+        </div>
+
+        <!-- التحكمات -->
+        <div class="controls">
+            <button id="like-btn">أعجبني</button>
+            <div id="comments">
+                <input type="text" id="comment-input" placeholder="أضف تعليق...">
+                <button id="comment-btn">نشر</button>
+            </div>
+            <button id="follow-btn">متابعة</button>
+        </div>
+    </div>
+
+    <div id="loading" class="loading">
+        <div class="spinner"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+              </html>
